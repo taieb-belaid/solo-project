@@ -1,0 +1,44 @@
+.square {
+    width:  150px ;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid {
+width: 480px;
+height:480px ;
+display: flex;
+flex-wrap: wrap;
+margin-top:0;
+margin-right:auto;
+margin-bottom:0;
+margin-left:auto;
+}
+
+.mole {
+     background-image:url('worm.gif'); background-repeat:repeat; 
+    background-size: cover;
+}
+
+html, body{
+    height: 100%;
+  }
+  body{
+    height: 100%;
+    
+    grid-template-rows: 1fr 50px;
+    background: linear-gradient(to bottom, #7927b2, #fb3182);
+    justify-content: center;
+    
+  }
+
+   h2{
+      display: inline-block;
+  }
+  h1{
+      text-align: center;
+      font-size: 400%;
+      font-family:monospace;
+  }
+  
